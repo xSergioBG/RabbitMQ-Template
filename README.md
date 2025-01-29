@@ -58,7 +58,8 @@ Follow the official RabbitMQ tutorial for .NET available at: [RabbitMQ Hello Wor
    - **RabbitMQ-Receive**
    - **RabbitMQ-Send**
 
-   ![Solution structure](attachment:5244af2c-e5f2-4721-a9c1-624cdc18acc1:image.png)
+   ![image](https://github.com/user-attachments/assets/779432e6-2c6d-4a03-9adc-1afab3c0c690)
+
 
 2. Add the **RabbitMQ.Client (7.0.0)** dependency to both projects.
 
