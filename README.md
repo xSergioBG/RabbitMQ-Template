@@ -16,11 +16,7 @@ This project provides a guide for setting up WSL 2, installing Docker Desktop, a
    ```powershell
    wsl -l -v
    ```
-
-### Troubleshooting
-- **Error: Permission Denied**
-  If you encounter the error: `error:docker: permission denied while trying to connect to the Docker`, check if the `docker` user has sufficient permissions on the system.
-
+   
 ---
 
 ## Docker Desktop Installation
@@ -42,6 +38,11 @@ Use the following command to run a RabbitMQ instance with the management plugin 
 ```bash
 docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:4.0-management
 ```
+
+### Troubleshooting
+- **Error: Permission Denied**
+  If you encounter the error: `error:docker: permission denied while trying to connect to the Docker`, check if the `docker` user has sufficient permissions on the system.
+
 
 This will start RabbitMQ and expose ports 5672 (messaging) and 15672 (management interface).
 
