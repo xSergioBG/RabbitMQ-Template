@@ -1,0 +1,23 @@
+name: Error reproducible
+description: Describe un fallo y cómo reproducirlo
+labels: [bug]
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Pasos para reproducir
+      description: Incluye el comando o flujo, el resultado esperado y el observado.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Entorno
+      description: Sistema, versiones y configuración relevante, sin credenciales.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidencia
+      description: Logs o capturas con secretos y datos personales eliminados.
